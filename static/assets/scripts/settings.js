@@ -150,8 +150,8 @@ function themeChange(ele) {
                     const iframe = doc.createElement("iframe");
                     const style = iframe.style;
                     const link = doc.createElement("link");
-                    const name = localStorage.getItem("name") || "My Drive - Google Drive";
-                    const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/assets/media/branding/product/1x/drive_2020q4_32dp.png";
+                    const name = localStorage.getItem("name") || "Home | Schoology";
+                    const icon = localStorage.getItem("icon") || "https://schoology.sdmfschools.org/sites/all/themes/schoology_theme/favicon.ico";
                     doc.title = name;
                     link.rel = "icon";
                     link.href = icon;
